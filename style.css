@@ -65,7 +65,7 @@ body {
     margin-bottom: 15px
 }
 .alignright {
-    float: r ight;
+    float: right;
     margin-left: 15px;
     margin-bottom: 15px
 }
@@ -81,6 +81,7 @@ img {
     max-width: 100%;
     height: auto
 }
+
 .fix {
     overflow: hidden
 }
@@ -260,7 +261,7 @@ ul > li > a {
 
 .header_area2.sticker {
     background: #fff;
-    padding: 25px 0;
+    padding: 25px 10px;
     z-index: 999;
 }
 .header_area2.stick {
@@ -602,6 +603,12 @@ a.actice-button:hover {
     background: #f8f8f8 none repeat scroll 0 0;
     padding: 95px 0 95px;
 }
+
+.about-story ul li {
+    list-style: square;   
+    padding: 5px; 
+}
+
 .about-area .about-us {
     padding: 100px 0px 92px;
 }
@@ -1408,6 +1415,7 @@ margin-top:20px;
 .home_2 .single-team:hover .team-icon {
     bottom: 0px;
 }
+
 /*--------------------
  * TEAM AREA CSS HOME-3
  ---------------------*/
@@ -1701,6 +1709,7 @@ margin-top:20px;
     display: inline-block;
     width: 100px;
 }
+
 .test_name h4 {
     color: #fff;
     font-size: 16px;
@@ -3509,9 +3518,7 @@ transform:translateY(-50%);
     border-color: #1b98e0;
     color: #fff;
 }
-.home_1 .mean-container .mean-bar {
-    background: #44B272 none repeat scroll 0 0;
-}
+
 .home_2 .mean-container .mean-bar {
     background: #1b98e0 none repeat scroll 0 0;
 }
@@ -3535,27 +3542,11 @@ select:focus {
 	z-index:-1;
 
 }
-.single-blog-details .single-blog h4 {
-  font-size: 24px;
-  margin-bottom: 0;
-  padding: 25px 0 5px 15px;
-}
-.single-blog-details .single-blog .blog-meta-bg {
-  padding: 0 0 0 15px;
-}
 
-.blog-meta-right.dd {
-  text-align: right;
-   color:#44b272;
-}
-.blog-meta.sicon .blog-meta-right a, 
-.blog-meta.sicon .blog-meta-left a {
-   color:#44b272;
-}
-.blog-meta.sicon .blog-meta-right a:hover,
- .blog-meta.sicon .blog-meta-right a:hover i,
- .blog-meta.sicon .blog-meta-left a:hover i,
- .blog-meta.sicon .blog-meta-left a:hover {
-  color:#44b272;
-}
 
+@media (max-width: 629px)
+{
+    img {
+        display: none;
+    }
+}
